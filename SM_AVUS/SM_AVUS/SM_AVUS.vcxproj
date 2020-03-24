@@ -139,9 +139,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArrayList.cpp" />
+    <ClCompile Include="ds_routines.cpp" />
+    <ClCompile Include="structure.cpp" />
+    <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="array.h" />
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="ds_routines.h" />
+    <ClInclude Include="ds_structure_types.h" />
+    <ClInclude Include="heap_monitor.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="structure.h" />
+    <ClInclude Include="structure_iterator.h" />
+    <ClInclude Include="vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
